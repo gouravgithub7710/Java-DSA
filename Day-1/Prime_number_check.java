@@ -14,8 +14,7 @@ public class Prime_number_check {
             System.out.println(prime_num + " this is prime num");
         }
 
-
-
-
     }
 }
+
+//optimise code in day ---2

@@ -1,6 +1,6 @@
 public class Prime_number_check {
     public static void main(String[] args) {
-        int prime_num = 17;
+        int prime_num = 4;
         int factorial = 0;
 
         for (int i = 1; i <= prime_num; i++) {
@@ -13,5 +13,9 @@ public class Prime_number_check {
         } else {
             System.out.println(prime_num + " this is prime num");
         }
+
+
+
+
     }
 }

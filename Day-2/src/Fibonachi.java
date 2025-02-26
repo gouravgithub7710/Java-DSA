@@ -1,23 +1,27 @@
 public class Fibonachi {
+    public static void printfibo(int n) {
+        int first = 0, second = 1, nthfibo;
 
+        if (n == 1) {
+            System.out.println(first);
+            return;
+        } else if (n == 2) {
+            System.out.println(first + " " + second);
+            return;
+        }
 
-    public static void printfibo(int n){
-        int first=0,second=1,nthfibo=0;
+        System.out.print(first + " " + second + " ");  // Print first two numbers
 
-        if (n==1){ System.out.println(first); return;}
-         else if (n==2) {System.out.println(first+" "+second); return;}
+        for (int i = 3; i <= n; i++) {  // Start from 3 since first two are already printed
+            nthfibo = first + second;
+            System.out.print(nthfibo + " ");
 
-         for (int i=2;i<=n;i++)
-         {
-             nthfibo = first+second;
-
-             System.out.print(nthfibo+" ");
-             second=nthfibo;
-             first=second;
-         }
+            first = second;  // Update first to previous second
+            second = nthfibo;  // Update second to the new nth Fibonacci number
+        }
     }
-    public static void main(String[] args) {
 
-        printfibo(3);
+    public static void main(String[] args) {
+        printfibo(4);
     }
 }

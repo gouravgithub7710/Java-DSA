@@ -1,3 +1,5 @@
+package Day1;
+
 public class Prime_number_check {
     public static void main(String[] args) {
         int prime_num = 4;

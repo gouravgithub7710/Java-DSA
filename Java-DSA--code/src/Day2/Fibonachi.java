@@ -1,3 +1,5 @@
+package Day2;
+
 public class Fibonachi {
     public static void printfibo(int n) {
         int first = 0, second = 1, nthfibo;

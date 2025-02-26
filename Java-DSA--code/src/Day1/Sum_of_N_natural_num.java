@@ -1,3 +1,5 @@
+package Day1;
+
 public class Sum_of_N_natural_num {
 
     public static int Sum_of_N_natural_num(int n)

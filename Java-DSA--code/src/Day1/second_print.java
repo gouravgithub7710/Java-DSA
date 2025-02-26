@@ -1,3 +1,5 @@
+package Day1;
+
 public class second_print {
 
     public static void main(String args[])

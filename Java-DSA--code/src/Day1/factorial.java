@@ -1,3 +1,5 @@
+package Day1;
+
 public class factorial {
 
     public static void main(String[] args) {

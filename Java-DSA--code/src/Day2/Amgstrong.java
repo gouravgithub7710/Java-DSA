@@ -1,3 +1,5 @@
+package Day2;
+
 public class Amgstrong {
 
     public static void main(String[] args) {

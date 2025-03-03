@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20328f9f-e817-4d08-b853-2b8180b5f35d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-DSA--code/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/Check_Odd_Even.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/Day-1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/First_Print.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/Fourth_print.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/Prime_number_check.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/Sum_of_N_natural_num.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/Third_Print.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day1/second_print.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day2/Amgstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Amgstrong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day2/Fibonachi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Fibonachi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day2/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day2/Palindrome_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Palindrome_num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day2/Prime_Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Prime_Num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day2/Print_N_Prime_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Print_N_Prime_num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-DSA--code/Programs-Days/Day2/Reverse_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Reverse_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/412_fizz_buzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/412_fizz_buzz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2,23 +2,17 @@ package Day3;
 
 public class Tower_of_Honai {
 
-    public static int moves(char S, char D,char A,int n){
-
-        //base condition
-
-        if (n==1) {return 1;}
-
-        // first move n-1 ,S->A using D,move largest from S to D =1,move n-1 from A->D using S
-
-        return moves(S,A,D,n-1)+1+moves(A,D,S,n-1);
-    }
     public static void main(String[] args) {
+        Tower_of_Honai t1 = new Tower_of_Honai();
+        t1.toh(2,"Source","Destination", "Helper");
+    }
 
-        System.out.println(moves('s','d','a',2));
-        System.out.println(moves('s','d','a',3));
-        System.out.println(moves('s','d','a',4));
-        System.out.println(moves('s','d','a',5));
-        System.out.println(moves('s','d','a',6));
+    public void toh(int n, String s, String d , String h) {
 
+        if (n==0){return;}
+
+        toh(n-1,s,h,d);
+        System.out.println("Disk "+n+" moved from "+s+" to "+d);
+        toh(n-1,h,d,s);
     }
 }

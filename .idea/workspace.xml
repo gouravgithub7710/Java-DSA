@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20328f9f-e817-4d08-b853-2b8180b5f35d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/412_fizz_buzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/412_fizz_buzz.java" afterDir="false" />
     </list>
@@ -40,13 +41,33 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/goura/OneDrive/Desktop/Java-DSA"
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "C:/Users/goura/OneDrive/Desktop/Java-DSA",
+    "onboarding.tips.debug.path": "C:/Users/goura/OneDrive/Desktop/Java-DSA/Recursion_DSA/src/Main.java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\goura\OneDrive\Desktop\Java-DSA" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\goura\OneDrive\Desktop\Java-DSA\out" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Java-DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Java-DSA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

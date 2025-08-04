@@ -14,7 +14,7 @@ class Solution {
                 return new int[] { map.get(complement), i };
             }
             
-            // Store current number and its index
+          
             map.put(nums[i], i);
         }
         

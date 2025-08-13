@@ -1,0 +1,22 @@
+class Solution {
+    public static void print_divisors(int n) {
+        // code here
+         ArrayList<Integer> divisors = new ArrayList<>();
+         
+      
+        for (int i = 1; i * i <= n; i++) {
+            if (n % i == 0) {
+                divisors.add(i); // smaller divisor
+                if (i != n / i) { // avoid duplicate for perfect squares
+                    divisors.add(n / i); // larger divisor
+                }
+            }
+        }
+        
+        Collections.sort(divisors); // to print in ascending order
+        
+        for (int d : divisors) {
+            System.out.print(d + " ");
+        }
+    }
+}

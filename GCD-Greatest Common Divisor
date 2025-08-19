@@ -1,0 +1,53 @@
+class Solution {
+    public static int gcd(int a, int b) {
+        // Jab tak b zero nahi hota, loop chalta rahega
+        while (b != 0) {
+            
+            // temp me b ko store kar lete hain (kyunki a ko b me dalne se pehle b ki value chahiye hogi)
+            int temp = b;
+            
+            // b ko update karte hain: ab b ban jaayega a % b (remainder)
+            b = a % b;
+            
+            // a ko update karte hain: ab a ban jaayega purana b (jo temp me tha)
+            a = temp;
+        }
+        
+        // Jab b = 0 ho jaata hai, us waqt a hi GCD hota hai
+        return a;
+    }
+}
+
+
+s
+//Time limit problem--------------
+
+// class Solution {
+//     public static int gcd(int a, int b) {
+//         // code here
+        
+//         ArrayList<Integer> divA = new ArrayList<>();
+//         ArrayList<Integer> divB = new ArrayList<>();
+        
+//         for (int i = 1; i <= a; i++) {
+//         if (a % i == 0) {
+//             divA.add(i);
+//         }
+//         }
+        
+//         for (int i = 1; i <= b; i++) {
+//         if (b % i == 0) {
+//             divB.add(i);
+//         }
+//         }
+        
+//         int gcd = 1;  // minimum gcd = 1 hoga
+
+//         for (int x : divA) {
+//         if (divB.contains(x)) {
+//         gcd = Math.max(gcd, x); // maximum common divisor update karte raho
+//         }
+//         } 
+//      return gcd;
+//     }
+// }

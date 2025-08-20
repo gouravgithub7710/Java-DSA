@@ -1,0 +1,33 @@
+Given two integers a and b, You have to compute their LCM and GCD and return an array containing their LCM and GCD.
+
+Examples:
+
+Input: a = 5 , b = 10
+Output: [10, 5]
+Explanation: LCM of 5 and 10 is 10, while their GCD is 5.
+
+
+
+class Solution {
+    public static int[] lcmAndGcd(int a, int b) {
+        // code here
+        int arr[]=new int[2];
+        arr[1]=gcd(a,b);
+        arr[0]=((a*b)/gcd(a,b));
+        return arr;
+    }
+    
+    public static int gcd(int a,int b)
+    {
+        
+        while (b != 0)
+        {
+            int temp = b;
+            b=a%b;
+            a=temp;
+        }
+        return a;
+    }
+    
+ 
+}

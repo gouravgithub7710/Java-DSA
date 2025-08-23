@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class PalindromeCount {
+
+    // Function to check palindrome
+    public static boolean isPalindrome(int number) {
+        if (number < 0) return false; // negative numbers not palindrome
+        int original = number;
+        int reversed = 0;
+
+        while (number > 0) {
+            reversed = reversed * 10 + number % 10;
+            number /= 10;
+        }
+
+        return original == reversed;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter M: ");
+        int M = sc.nextInt();
+
+        System.out.print("Enter N: ");
+        int N = sc.nextInt();
+
+        int count = 0;
+        for (int i = M; i <= N; i++) {
+            if (isPalindrome(i)) {
+                count++;
+            }
+        }
+
+        System.out.println(count);
+        sc.close();
+    }
+}

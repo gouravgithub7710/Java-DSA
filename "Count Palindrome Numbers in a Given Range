@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PalindromeCount {
 
-    // Function to check palindrome
+   
     public static boolean isPalindrome(int number) {
         if (number < 0) return false; // negative numbers not palindrome
         int original = number;
